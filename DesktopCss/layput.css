@@ -1,0 +1,215 @@
+
+@media (max-width: 900px) {
+    
+        
+   
+
+
+    .con1{
+
+        width: 60%;
+        margin-left: 20%;
+            display: grid;
+            
+        
+             grid-template-columns: repeat(2, 50%);
+             grid-template-rows: repeat(11,100%);
+            /* background-color: saddlebrown; */
+        text-align: center;
+        
+        }
+        
+#one{
+    background-color:skyblue;
+grid-column-start: 1;
+
+grid-column-end: 3;
+ grid-row-start: 1;
+grid-row-end:1 ; 
+
+
+        }
+        #two {
+
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 2;
+            grid-row-end:3 ;
+            background-color: deeppink;
+        }
+        
+        #three {
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 3;
+            grid-row-end:4 ;
+            
+            background-color:tomato;
+        }
+        
+        #four {
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 4;
+            grid-row-end:5 ;
+            background-color: chartreuse;
+            }
+        
+        #five {
+            grid-column-start: 1;
+
+            grid-column-end: 2;
+             grid-row-start: 4;
+            grid-row-end:6 ;
+            
+            background: orangered;
+        }
+        
+        #six {
+            grid-column-start: 2;
+
+            grid-column-end: 3;
+             grid-row-start: 4;
+            grid-row-end:6 ;
+        background-color:darkslategrey;
+        }
+        
+        #seven {
+
+            grid-column-start: 1;
+
+            grid-column-end: 2;
+             grid-row-start: 6;
+            grid-row-end:8 ;
+        background-color:goldenrod;
+        }
+        
+        #eight {
+            grid-column-start: 2;
+
+            grid-column-end: 3;
+             grid-row-start: 6;
+            grid-row-end:8 ;
+            background-color:red ;
+        }
+        #nine{
+            grid-column-start:1;
+            grid-column-end: 3;
+             grid-row-start: 8;
+            grid-row-end:10 ;
+            background-color:black ;     
+        }
+
+
+    }
+
+@media (max-width: 600px) {
+    
+        
+   
+
+
+    .con1{
+
+        width: 60%;
+        margin-left: 20%;
+            display: grid;
+            
+        
+             grid-template-columns: repeat(2, 50%);
+             grid-template-rows: repeat(11,100%);
+            /* background-color: saddlebrown; */
+        text-align: center;
+        
+        }
+        
+#one{
+    background-color:darkslategrey;
+grid-column-start: 1;
+
+grid-column-end: 3;
+ grid-row-start: 1;
+grid-row-end:1 ; 
+
+
+        }
+        #two {
+
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 2;
+            grid-row-end:3 ;
+            background-color: sandybrown;
+        }
+        
+        #three {
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 3;
+            grid-row-end:4 ;
+            background-color: sandybrown;
+            background: slateblue;
+        }
+        
+        #four {
+            grid-column-start: 1;
+
+            grid-column-end: 3;
+             grid-row-start: 4;
+            grid-row-end:5 ;
+            background-color: sandybrown;
+            background: slateblue;
+        background: teal;}
+        
+        #five {
+            grid-column-start: 1;
+
+            grid-column-end: 2;
+             grid-row-start: 4;
+            grid-row-end:6 ;
+            
+            background: yellowgreen;
+        }
+        
+        #six {
+            grid-column-start: 2;
+
+            grid-column-end: 3;
+             grid-row-start: 4;
+            grid-row-end:6 ;
+        background-color: violet;
+        }
+        
+        #seven {
+
+            grid-column-start: 1;
+
+            grid-column-end: 2;
+             grid-row-start: 6;
+            grid-row-end:8 ;
+        background-color: blue;
+        }
+        
+        #eight {
+            grid-column-start: 2;
+
+            grid-column-end: 3;
+             grid-row-start: 6;
+            grid-row-end:8 ;
+            background-color:red ;
+        }
+        #nine{
+            grid-column-start:1;
+            grid-column-end: 3;
+             grid-row-start: 8;
+            grid-row-end:10 ;
+            background-color:yellow ;     
+        }
+
+
+    }
